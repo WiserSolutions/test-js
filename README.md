@@ -33,7 +33,7 @@ describe('Component', () => {
 })
 ```
 
-If you need to customise the configuration, use `@wisersolutions/test-js/jest.config.js` as defaults.
+If you need to customise the configuration, use `@wisersolutions/test-js/lib/defaultConfig.js` as defaults.
 If you also need to extend the test framework setup, don't forget to include `@wisersolutions/test-js/lib/setup.js`
 from your setup file. 
 

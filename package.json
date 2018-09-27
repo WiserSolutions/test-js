@@ -16,13 +16,12 @@
     "test-js": "lib/index.js"
   },
   "files": [
-    "/lib",
-    "jest.config.js"
+    "/lib"
   ],
   "scripts": {
     "format": "prettier --write \"**/*.js\" --loglevel warn",
     "lint": "eslint -f @wisersolutions/eslint-formatter-idea .",
-    "test": "node lib/index.js './lib'"
+    "test": "node ."
   },
   "devDependencies": {
     "@wisersolutions/eslint-config": "^1.0.3",
