@@ -1,0 +1,18 @@
+{
+  "extends": "@wisersolutions",
+  "parser": "espree",
+  "overrides": [
+    {
+      "files": ["**/*.test.js"],
+      "env": {
+        "jest": true
+      },
+      "globals": {
+        "React": true,
+        "shallow": true,
+        "mount": true,
+        "render": true
+      }
+    }
+  ]
+}

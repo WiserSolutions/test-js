@@ -1,0 +1,51 @@
+{
+  "name": "@wisersolutions/test-js",
+  "version": "0.0.0",
+  "description": "Default setup for testing JavaScript/React packages with Jest",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/WisePricer/test-js"
+  },
+  "author": "Wiser Solutions, Inc.",
+  "collaborators": [
+    "Jan Konopásek"
+  ],
+  "license": "MIT",
+  "main": "lib/index.js",
+  "bin": {
+    "test-js": "lib/index.js"
+  },
+  "files": [
+    "/lib",
+    "jest.config.js"
+  ],
+  "scripts": {
+    "format": "prettier --write \"**/*.js\" --loglevel warn",
+    "lint": "eslint -f @wisersolutions/eslint-formatter-idea .",
+    "test": "node lib/index.js './lib'"
+  },
+  "devDependencies": {
+    "@wisersolutions/eslint-config": "^1.0.3",
+    "@wisersolutions/eslint-formatter-idea": "^1.0.2",
+    "babel-eslint": "^10.0.0",
+    "eslint": "^5.6.0",
+    "eslint-config-prettier": "^3.0.1",
+    "eslint-plugin-react": "^7.11.1",
+    "prettier": "^1.14.2",
+    "react": "^16.5.2",
+    "react-dom": "^16.5.2"
+  },
+  "dependencies": {
+    "@babel/runtime": "^7.0.0",
+    "babel-jest": "^23.6.0",
+    "enzyme": "^3.6.0",
+    "enzyme-adapter-react-16": "^1.5.0",
+    "jest": "^23.6.0",
+    "jest-enzyme": "^6.1.2",
+    "jest-environment-enzyme": "^6.1.2"
+  },
+  "peerDependencies": {
+    "react": "~16",
+    "react-dom": "~16"
+  }
+}
