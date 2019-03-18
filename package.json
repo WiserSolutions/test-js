@@ -19,8 +19,8 @@
     "/lib"
   ],
   "scripts": {
-    "format": "prettier --write \"**/*.js\" --loglevel warn",
-    "lint": "eslint -f @wisersolutions/eslint-formatter-idea .",
+    "format": "prettier --write \"lib/**/*.js\" --loglevel warn",
+    "lint": "eslint -f @wisersolutions/eslint-formatter-idea ./lib",
     "test": "node ."
   },
   "devDependencies": {
@@ -31,8 +31,9 @@
     "eslint-config-prettier": "^3.0.1",
     "eslint-plugin-react": "^7.11.1",
     "prettier": "^1.14.2",
-    "react": "^16.5.2",
-    "react-dom": "^16.5.2"
+    "react": "^16.8.4",
+    "react-dom": "^16.8.4",
+    "react-test-renderer": "^16.8.4"
   },
   "dependencies": {
     "@babel/core": "^7.1.0",
@@ -43,7 +44,9 @@
     "enzyme-adapter-react-16": "^1.6.0",
     "jest": "^23.6.0",
     "jest-enzyme": "^7.0.0",
-    "jest-environment-enzyme": "^7.0.0"
+    "jest-environment-enzyme": "^7.0.0",
+    "jest-styled-components": "^6.3.1",
+    "styled-components": "^4.1.3"
   },
   "peerDependencies": {
     "react": "~16",

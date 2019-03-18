@@ -1,0 +1,13 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`react test setup includes styling in plain snapshots of styled components 1`] = `
+.c0 {
+  color: red;
+}
+
+<div
+  className="c0"
+>
+  test content
+</div>
+`;
