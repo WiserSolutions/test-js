@@ -4,7 +4,7 @@
   "description": "Default setup for testing JavaScript/React packages with Jest",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/WisePricer/test-js"
+    "url": "git+https://github.com/WiserSolutions/test-js"
   },
   "author": "Wiser Solutions, Inc.",
   "collaborators": [
