@@ -1,6 +1,6 @@
 {
   "name": "@wisersolutions/test-js",
-  "version": "0.2.3",
+  "version": "0.2.4",
   "description": "Default setup for testing JavaScript/React packages with Jest",
   "repository": {
     "type": "git",
