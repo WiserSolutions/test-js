@@ -2,6 +2,9 @@
   "name": "@wisersolutions/test-js",
   "version": "0.3.1",
   "description": "Default setup for testing JavaScript/React packages with Jest",
+  "engines": {
+    "node": ">=22.0.0"
+  },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/WiserSolutions/test-js"
@@ -29,7 +32,10 @@
   "devDependencies": {
     "@wisersolutions/eslint-config": "^2.0.6",
     "@wisersolutions/eslint-formatter-idea": "^1.0.8",
+    "@wojtekmaj/enzyme-adapter-react-17": "^0.8.0",
     "babel-eslint": "^10.1.0",
+    "cheerio": "^1.0.0-rc.12",
+    "enzyme": "^3.11.0",
     "eslint": "^7.25.0",
     "eslint-config-prettier": "^8.3.0",
     "eslint-plugin-jest": "^24.3.6",
@@ -42,13 +48,10 @@
   "dependencies": {
     "@babel/core": "^7.13.16",
     "@babel/runtime": "^7.13.17",
-    "@wojtekmaj/enzyme-adapter-react-17": "^0.6.1",
     "babel-jest": "^26.6.3",
-    "enzyme": "^3.11.0",
     "enzyme-adapter-react-16": "^1.15.6",
     "jest": "^26.6.3",
     "jest-environment-enzyme": "^7.1.2",
-    "jest-enzyme": "^7.1.2",
     "jest-styled-components": "^7.0.4",
     "styled-components": "^5.2.3"
   },
